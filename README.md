@@ -1,12 +1,12 @@
-每日自动爬取ssr并上传
+收集自网络，每日自动上传
 
-ssr.txt国内订阅链接:
+ssr文件国内订阅链接:
 
 ```
 https://proxy.v2gh.com/https://raw.githubusercontent.com/ljun223/ljunssr/master/ssr.txt
 ```
 
-sub.txt国内订阅链接为：
+sub文件国内订阅链接为：
 
 ```
 https://proxy.v2gh.com/https://raw.githubusercontent.com/ljun223/ljunssr/master/sub.txt
@@ -14,7 +14,9 @@ https://proxy.v2gh.com/https://raw.githubusercontent.com/ljun223/ljunssr/master/
 
 ## 免责声明
 
-* 收集自网络，仅供学习交流，请在试用后24小时内删除
+* 内容均收集自网络，请自行承担可能出现的所有问题
+
+* 仅供学习交流，请在试用后24小时内删除
 
 * 禁止进行任何违法恶意活动
 
