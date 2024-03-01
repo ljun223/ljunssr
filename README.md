@@ -1,5 +1,9 @@
 收集自网络，每日自动上传
 
+
+ssr和sub文件可用于v2ray、shadowsocket等软件订阅
+clash文件用于clash软件的订阅
+
 ssr文件国内订阅链接:
 
 ```
@@ -10,6 +14,11 @@ sub文件国内订阅链接为：
 
 ```
 https://proxy.v2gh.com/https://raw.githubusercontent.com/ljun223/ljunssr/master/sub.txt
+```
+clash文件国内订阅链接为：
+
+```
+https://proxy.v2gh.com/https://raw.githubusercontent.com/ljun223/ljunssr/master/clash.txt
 ```
 
 ## 免责声明
