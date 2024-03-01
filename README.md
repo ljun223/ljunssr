@@ -7,18 +7,18 @@ clash文件用于clash软件的订阅
 ssr文件国内订阅链接:
 
 ```
-https://proxy.v2gh.com/https://raw.githubusercontent.com/ljun223/ljunssr/master/ssr.txt
+https://proxy.v2gh.com/https://raw.githubusercontent.com/ljun223/ljunssr/master/ssr
 ```
 
 sub文件国内订阅链接为：
 
 ```
-https://proxy.v2gh.com/https://raw.githubusercontent.com/ljun223/ljunssr/master/sub.txt
+https://proxy.v2gh.com/https://raw.githubusercontent.com/ljun223/ljunssr/master/sub
 ```
 clash文件国内订阅链接为：
 
 ```
-https://proxy.v2gh.com/https://raw.githubusercontent.com/ljun223/ljunssr/master/clash.txt
+https://proxy.v2gh.com/https://raw.githubusercontent.com/ljun223/ljunssr/master/clash
 ```
 
 ## 免责声明
