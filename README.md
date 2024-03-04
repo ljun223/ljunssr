@@ -1,4 +1,5 @@
 收集自网络，每日自动上传
+6小时更新一次
 
 
 ssr和sub文件可用于v2ray、shadowsocket等软件订阅
