@@ -5,24 +5,26 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 🇨🇳 广东省广州市 电信, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: aes-256-gcm, password: 7905a32b-012c-4711-89e2-73b6713eca75, tfo: false}
   - {name: 欧盟 V2CROSS.COM, server: 45.87.175.58, port: 8080, type: ss, cipher: aes-256-gcm, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: 🇨🇳 浙江省宁波市 移动, server: yal.fxlcn.com, port: 45272, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
+  - {name: 🇨🇳 广东省 移动, server: jg647hf446ghvw.gym0boy.com, port: 49709, type: ss, cipher: aes-256-gcm, password: 9191d221-b36f-40a5-bc5d-dfbf798362c8, tfo: false}
   - {name: 🇺🇸 美国 CloudFlare节点, server: cloudgetservice2.mcloudservice.site, port: 443, type: vmess, uuid: c208e0ae-6f6d-4745-99da-44a44744c530, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /linkwsrt, headers: {Host: blazE-GEr-248.blAZeClOuDmaiN.sitE}}, tfo: false}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress, server: 107.148.6.67, port: 30001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/170733132233}, tfo: false}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 1743919941.tencentapp.cn, port: 8443, type: vmess, uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 1743919978.speed.laxha.cccp.freefly.pp.ua}}, tfo: false}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.18.149.76, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /aa, headers: {Host: us.kkp.me.eu.org}}, tfo: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.17.176.171, port: 8080, type: vmess, uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: ke7hz36ewz-4515017473.mashallahbet.com}}, tfo: false}
   - {name: 🇨🇳 吉林省 移动(全省通用), server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, tfo: false}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: awetdfgn_cdn.hfhfb.homes, port: 2086, type: vmess, uuid: 16f000d7-7805-459d-9130-200d00180b7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/market?ed=1024", headers: {Host: mgcdn8.hfhfb.homes}}, tfo: false}
-  - {name: 🇨🇳 上海市徐汇区 联通漕河泾数据中心, server: lt.fxlcn.com, port: 45276, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇨🇳 吉林省 移动(全省通用) 2, server: 111.26.109.79, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo}, tfo: false}
-  - {name: 🇨🇳 吉林省 移动(全省通用) 3, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, tfo: false}
-  - {name: 🇨🇳 吉林省 移动(全省通用) 4, server: 111.26.109.79, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: api100-core-quic-lf.amemv.com}}, tfo: false}
-  - {name: 🇨🇳 台湾省新竹县 中华电信, server: hyttttesgvvxb1.jkhkgj.xyz, port: 80, type: vmess, uuid: 16f000d7-7805-459d-9130-200d00180b7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/market/jp1?ed=512", headers: {Host: file.dingtalk.com}}, tfo: false}
-  - {name: 🇨🇳 江苏省 移动, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, tfo: false}
-  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: store.timimi.dpdns.org}}, tfo: false}
-  - {name: 🇨🇳 江苏省 移动 2, server: 36.151.192.10, port: 9141, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: false, tfo: false}
-  - {name: 🇺🇸 美国 CloudFlare节点 5, server: 104.17.128.1, port: 2096, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubdns.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560&PROT_TYPE=trojan", headers: {Host: vle.amclubdns.dpdns.org}}, tfo: false}
+  - {name: 🇨🇳 台湾省新北市 中华电信, server: hyttttesgvvxb1.jkhkgj.xyz, port: 80, type: vmess, uuid: 16f000d7-7805-459d-9130-200d00180b7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/market/jp1?ed=512", headers: {Host: file.dingtalk.com}}, tfo: false}
+  - {name: 🇨🇳 广东省广州市 电信 2, server: fa.fxlcn.com, port: 45215, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
+  - {name: 🇨🇳 上海市徐汇区 联通漕河泾数据中心, server: lt.fxlcn.com, port: 45235, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
+  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress, server: 107.148.6.67, port: 30001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.53865734.xyz, network: ws, ws-opts: {path: /path/170733132233, headers: {Host: www.53865734.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 172.67.131.27, port: 2053, type: vmess, uuid: 350e2b01-d410-44a6-90ba-6483f1062972, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: rak2d4.89060004.xyz}}, tfo: false}
+  - {name: 🇨🇳 吉林省 移动(全省通用) 2, server: 111.26.109.79, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: api100-core-quic-lf.amemv.com}}, tfo: false}
+  - {name: 🇨🇳 台湾省新北市 中华电信 2, server: hyttttesgvvxb1.jkhkgj.xyz, port: 180, type: vmess, uuid: 16f000d7-7805-459d-9130-200d00180b7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/market/tw?ed=512", headers: {Host: file.dingtalk.com}}, tfo: false}
+  - {name: 🇨🇳 台湾省台北市 中华电信, server: twjxlnnoljxc.jkhkgj.xyz, port: 80, type: vmess, uuid: 16f000d7-7805-459d-9130-200d00180b7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/market/tw?ed=512", headers: {Host: file.dingtalk.com}}, tfo: false}
+  - {name: 🇨🇳 广东省深圳市 移动, server: yal.fxlcn.com, port: 45273, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 104.21.7.147, port: 443, type: trojan, password: 4b33b482-25bc-49e4-b866-878c914d945a, sni: 44444444.HuanGShANG.DPDNs.oRG, skip-cert-verify: false, network: ws, ws-opts: {path: /kzefUfBUzMsQY6zyyQCjn8kmnN0ehd, headers: {Host: 44444444.HuanGShANG.DPDNs.oRG}}, tfo: false}
   - {name: 🇺🇸 美国 Cloudinnovation数据中心, server: 154.83.2.200, port: 443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubdns.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560&PROT_TYPE=trojan", headers: {Host: vle.amclubdns.dpdns.org}}, tfo: false}
+  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: store.timimi.dpdns.org}}, tfo: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 5, server: iiiiop0.444752.xyz, port: 443, type: trojan, password: 0f7070cd-c91d-4532-a51f-56da4f0e94be, sni: iiiiop0.444752.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /ctHoQlqeZn8pbEUSLppj7jCmY, headers: {Host: iiiiop0.444752.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 6, server: 172.67.150.132, port: 443, type: trojan, password: 0f7070cd-c91d-4532-a51f-56da4f0e94be, sni: eeddcvfgt6.444682.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /ctHoQlqeZn8pbEUSLppj7jCmY, headers: {Host: eeddcvfgt6.444682.xyz}}, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -41,72 +43,78 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - 🇨🇳 广东省广州市 电信
       - 欧盟 V2CROSS.COM
-      - 🇨🇳 浙江省宁波市 移动
+      - 🇨🇳 广东省 移动
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用)
-      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇨🇳 台湾省新北市 中华电信
+      - 🇨🇳 广东省广州市 电信 2
       - 🇨🇳 上海市徐汇区 联通漕河泾数据中心
+      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用) 2
-      - 🇨🇳 吉林省 移动(全省通用) 3
-      - 🇨🇳 吉林省 移动(全省通用) 4
-      - 🇨🇳 台湾省新竹县 中华电信
-      - 🇨🇳 江苏省 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇨🇳 江苏省 移动 2
-      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇨🇳 台湾省新北市 中华电信 2
+      - 🇨🇳 台湾省台北市 中华电信
+      - 🇨🇳 广东省深圳市 移动
+      - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 Cloudinnovation数据中心
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 广东省广州市 电信
       - 欧盟 V2CROSS.COM
-      - 🇨🇳 浙江省宁波市 移动
+      - 🇨🇳 广东省 移动
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用)
-      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇨🇳 台湾省新北市 中华电信
+      - 🇨🇳 广东省广州市 电信 2
       - 🇨🇳 上海市徐汇区 联通漕河泾数据中心
+      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用) 2
-      - 🇨🇳 吉林省 移动(全省通用) 3
-      - 🇨🇳 吉林省 移动(全省通用) 4
-      - 🇨🇳 台湾省新竹县 中华电信
-      - 🇨🇳 江苏省 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇨🇳 江苏省 移动 2
-      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇨🇳 台湾省新北市 中华电信 2
+      - 🇨🇳 台湾省台北市 中华电信
+      - 🇨🇳 广东省深圳市 移动
+      - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 Cloudinnovation数据中心
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 广东省广州市 电信
       - 欧盟 V2CROSS.COM
-      - 🇨🇳 浙江省宁波市 移动
+      - 🇨🇳 广东省 移动
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用)
-      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇨🇳 台湾省新北市 中华电信
+      - 🇨🇳 广东省广州市 电信 2
       - 🇨🇳 上海市徐汇区 联通漕河泾数据中心
+      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用) 2
-      - 🇨🇳 吉林省 移动(全省通用) 3
-      - 🇨🇳 吉林省 移动(全省通用) 4
-      - 🇨🇳 台湾省新竹县 中华电信
-      - 🇨🇳 江苏省 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇨🇳 江苏省 移动 2
-      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇨🇳 台湾省新北市 中华电信 2
+      - 🇨🇳 台湾省台北市 中华电信
+      - 🇨🇳 广东省深圳市 移动
+      - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 Cloudinnovation数据中心
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -114,24 +122,26 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 广东省广州市 电信
       - 欧盟 V2CROSS.COM
-      - 🇨🇳 浙江省宁波市 移动
+      - 🇨🇳 广东省 移动
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用)
-      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇨🇳 台湾省新北市 中华电信
+      - 🇨🇳 广东省广州市 电信 2
       - 🇨🇳 上海市徐汇区 联通漕河泾数据中心
+      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用) 2
-      - 🇨🇳 吉林省 移动(全省通用) 3
-      - 🇨🇳 吉林省 移动(全省通用) 4
-      - 🇨🇳 台湾省新竹县 中华电信
-      - 🇨🇳 江苏省 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇨🇳 江苏省 移动 2
-      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇨🇳 台湾省新北市 中华电信 2
+      - 🇨🇳 台湾省台北市 中华电信
+      - 🇨🇳 广东省深圳市 移动
+      - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 Cloudinnovation数据中心
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
   - name: 📲 电报消息
     type: select
     proxies:
@@ -313,19 +323,22 @@ proxy-groups:
     tolerance: 150
     proxies:
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
       - 🇺🇸 美国 Cloudinnovation数据中心
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾省新竹县 中华电信
+      - 🇨🇳 台湾省新北市 中华电信
+      - 🇨🇳 台湾省新北市 中华电信 2
+      - 🇨🇳 台湾省台北市 中华电信
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
