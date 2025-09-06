@@ -5,50 +5,44 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 欧盟 V2CROSS.COM, server: beesyar.org, port: 8080, type: ss, cipher: aes-256-gcm, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
-  - {name: 亚太地区 V2CROSS.COM, server: 103.163.218.2, port: 990, type: ss, cipher: aes-256-gcm, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 151.242.251.153, port: 8080, type: ss, cipher: aes-256-gcm, password: QCXDxuDlTTMD7jtgHUjIoj, tfo: false}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, tfo: false}
-  - {name: 🇨🇳 江苏省 移动, server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, tfo: false}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, tfo: false}
-  - {name: 🇺🇸 美国 惠普HP, server: 15.204.234.200, port: 41100, type: vmess, uuid: c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇨🇳 江苏省 移动 2, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, tfo: false}
-  - {name: 🇨🇳 江苏省 移动 3, server: v35.heduian.link, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v35.heduian.link}}, tfo: false}
-  - {name: 🇰🇷 韩国 KT电信, server: 121.148.27.194, port: 55582, type: vmess, uuid: c47059b2-c52e-4abd-b585-417461366b0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, tfo: false}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 192.200.160.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇱🇺 卢森堡 root.lu数据中心, server: 188.42.145.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇦🇹 奥地利 V2CROSS.COM, server: 212.183.88.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇱🇺 卢森堡 root.lu数据中心 2, server: 188.42.89.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇩🇪 德国 V2CROSS.COM, server: 195.13.44.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 185.251.82.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 193.9.49.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 192.0.54.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇸🇦 沙特阿拉伯 V2CROSS.COM, server: 77.110.110.117, port: 443, type: ss, cipher: aes-256-gcm, password: 9JeYy8SkViXuSHVs9GFeSe, tfo: false}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 95.163.176.37, port: 8506, type: ss, cipher: aes-256-gcm, password: eUh4lSpi7nOYj0vSrqLUh0, tfo: false}
+  - {name: 🇨🇳 台湾省 中华电信(HiNet)数据中心, server: 59.126.32.59, port: 10066, type: ss, cipher: aes-256-gcm, password: 6b9e151f-10bb-4ef9-8607-fe3ad53f7dc1, tfo: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.16.79.65, port: 80, type: vmess, uuid: 6acd1528-42cc-43cf-93a4-f36bd859f6d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/index.html?ed=2048", headers: {Host: 745019073041272025090210144391493.fr.chibaba.filegear-sg.me}}, tfo: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.18.142.163, port: 80, type: vmess, uuid: b190e9bd-e11e-4305-be17-2181588e7d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/index.html?ed=2048", headers: {Host: 642291576495782025090210144085784.fr.chibaba.filegear-sg.me}}, tfo: false}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 2, server: cpanel.erade32.ir, port: 100, type: vmess, uuid: 0888adea-086c-4783-9989-85df86819c1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
+  - {name: 🇩🇪 德国 V2CROSS.COM, server: 62.146.235.193, port: 28011, type: vmess, uuid: cfc5a87f-3c13-4e25-b556-176cdd6b5c6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
+  - {name: 🇨🇳 江苏省 移动, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, tfo: false}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, tfo: false}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.144.174.211, port: 23168, type: vmess, uuid: 8db49eb9-d68b-4cce-a1de-7e9c7cad1610, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, tfo: false}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, tfo: false}
+  - {name: 🇨🇳 江苏省 移动 2, server: v35.heduian.link, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v35.heduian.link}}, tfo: false}
+  - {name: 🇨🇳 江苏省 移动 3, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, tfo: false}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, tfo: false}
+  - {name: 🇨🇳 江苏省 移动 4, server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, tfo: false}
+  - {name: 🇬🇧 英国 社会保险安全部, server: 51.222.158.243, port: 8443, type: vmess, uuid: 4b0df213-0e59-4c16-b391-e0d97686bfa9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess/}, tfo: false}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 3, server: 193.9.49.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
   - {name: 🇳🇱 荷兰 V2CROSS.COM, server: 188.164.248.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 2, server: 193.124.224.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 188.244.122.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 3, server: 185.59.218.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇩🇪 德国 V2CROSS.COM 2, server: 194.76.18.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇨🇳 台湾省桃园市 中华电信, server: tuntro002.instconn.com, port: 20253, type: trojan, password: 79462058-8af8-4f78-9f72-252035389b87, sni: bing.3668989.xyz, skip-cert-verify: false, tfo: false}
-  - {name: 🇺🇸 美国 V2CROSS.COM 3, server: 199.34.229.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇪🇸 西班牙 V2CROSS.COM 2, server: 185.251.83.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇪🇸 西班牙 V2CROSS.COM 3, server: 185.251.80.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇸🇪 瑞典 V2CROSS.COM, server: 195.13.55.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇸🇪 瑞典 V2CROSS.COM 2, server: 195.13.54.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇱🇹 立陶宛 V2CROSS.COM, server: 185.148.107.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇺🇸 美国 V2CROSS.COM 4, server: 199.68.156.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇫🇷 法国 V2CROSS.COM, server: 185.7.240.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇪🇸 西班牙 V2CROSS.COM 4, server: 185.251.81.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇺🇸 美国 V2CROSS.COM 5, server: 199.34.230.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇺🇸 美国 V2CROSS.COM 6, server: 209.94.90.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇬🇧 英国 V2CROSS.COM 2, server: 195.26.229.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇧🇬 保加利亚 V2CROSS.COM, server: 185.176.26.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇺🇸 美国 V2CROSS.COM 7, server: 192.0.63.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇱🇺 卢森堡 root.lu数据中心 3, server: 188.42.88.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇱🇹 立陶宛 V2CROSS.COM 2, server: 185.148.106.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇩🇪 德国 V2CROSS.COM 2, server: 185.16.110.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 4, server: 193.124.224.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
   - {name: 🇸🇬 立陶宛 NGS新闻, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇯🇵 日本 东京Oracle云计算数据中心, server: tuntro003.instconn.com, port: 443, type: trojan, password: 79462058-8af8-4f78-9f72-252035389b87, sni: cherry.686911.xyz, skip-cert-verify: false, tfo: false}
-  - {name: 🇬🇧 英国 V2CROSS.COM 3, server: 185.156.19.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
-  - {name: 🇩🇪 德国 V2CROSS.COM 3, server: 185.16.110.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 192.200.160.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇫🇷 法国 V2CROSS.COM, server: 185.7.240.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 185.251.80.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇱🇹 立陶宛 V2CROSS.COM, server: 185.148.107.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇺🇸 美国 V2CROSS.COM 3, server: 192.0.63.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇪🇸 西班牙 V2CROSS.COM 2, server: 185.251.82.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 5, server: 185.59.218.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇸🇪 瑞典 V2CROSS.COM, server: 195.13.55.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇩🇪 德国 V2CROSS.COM 3, server: 194.76.18.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇪🇸 西班牙 V2CROSS.COM 3, server: 185.251.83.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇱🇺 卢森堡 root.lu数据中心, server: 188.42.145.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇨🇳 广东省东莞市 电信IDC机房, server: okanc.iepl.cac.cab, port: 23001, type: trojan, password: 82d0fb76-b9ff-41c2-ba15-2aec44f78e7c, sni: www.bilibili.com, skip-cert-verify: false, tfo: false}
+  - {name: 🇨🇳 广东省东莞市 电信IDC机房 2, server: okanc.iepl.cac.cab, port: 23012, type: trojan, password: 82d0fb76-b9ff-41c2-ba15-2aec44f78e7c, sni: www.bilibili.com, skip-cert-verify: false, tfo: false}
+  - {name: 🇺🇸 美国 V2CROSS.COM 4, server: 199.34.230.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇸🇪 瑞典 V2CROSS.COM 2, server: 195.13.54.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇦🇹 奥地利 V2CROSS.COM, server: 212.183.88.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
+  - {name: 🇱🇹 立陶宛 V2CROSS.COM 2, server: 185.148.106.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -67,150 +61,132 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 欧盟 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇸🇦 沙特阿拉伯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇨🇳 江苏省 移动
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇺🇸 美国 惠普HP
       - 🇨🇳 江苏省 移动 2
       - 🇨🇳 江苏省 移动 3
-      - 🇰🇷 韩国 KT电信
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇱🇺 卢森堡 root.lu数据中心
-      - 🇦🇹 奥地利 V2CROSS.COM
-      - 🇱🇺 卢森堡 root.lu数据中心 2
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇳🇱 荷兰 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇨🇳 江苏省 移动 4
+      - 🇬🇧 英国 社会保险安全部
       - 🇷🇺 俄罗斯 V2CROSS.COM 3
+      - 🇳🇱 荷兰 V2CROSS.COM
       - 🇩🇪 德国 V2CROSS.COM 2
-      - 🇨🇳 台湾省桃园市 中华电信
+      - 🇷🇺 俄罗斯 V2CROSS.COM 4
+      - 🇸🇬 立陶宛 NGS新闻
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇫🇷 法国 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇱🇹 立陶宛 V2CROSS.COM
       - 🇺🇸 美国 V2CROSS.COM 3
       - 🇪🇸 西班牙 V2CROSS.COM 2
-      - 🇪🇸 西班牙 V2CROSS.COM 3
+      - 🇷🇺 俄罗斯 V2CROSS.COM 5
       - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇸🇪 瑞典 V2CROSS.COM 2
-      - 🇱🇹 立陶宛 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇫🇷 法国 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM 4
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇧🇬 保加利亚 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 7
-      - 🇱🇺 卢森堡 root.lu数据中心 3
-      - 🇱🇹 立陶宛 V2CROSS.COM 2
-      - 🇸🇬 立陶宛 NGS新闻
-      - 🇯🇵 日本 东京Oracle云计算数据中心
-      - 🇬🇧 英国 V2CROSS.COM 3
       - 🇩🇪 德国 V2CROSS.COM 3
+      - 🇪🇸 西班牙 V2CROSS.COM 3
+      - 🇱🇺 卢森堡 root.lu数据中心
+      - 🇨🇳 广东省东莞市 电信IDC机房
+      - 🇨🇳 广东省东莞市 电信IDC机房 2
+      - 🇺🇸 美国 V2CROSS.COM 4
+      - 🇸🇪 瑞典 V2CROSS.COM 2
+      - 🇦🇹 奥地利 V2CROSS.COM
+      - 🇱🇹 立陶宛 V2CROSS.COM 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 欧盟 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇸🇦 沙特阿拉伯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇨🇳 江苏省 移动
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇺🇸 美国 惠普HP
       - 🇨🇳 江苏省 移动 2
       - 🇨🇳 江苏省 移动 3
-      - 🇰🇷 韩国 KT电信
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇱🇺 卢森堡 root.lu数据中心
-      - 🇦🇹 奥地利 V2CROSS.COM
-      - 🇱🇺 卢森堡 root.lu数据中心 2
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇳🇱 荷兰 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇨🇳 江苏省 移动 4
+      - 🇬🇧 英国 社会保险安全部
       - 🇷🇺 俄罗斯 V2CROSS.COM 3
+      - 🇳🇱 荷兰 V2CROSS.COM
       - 🇩🇪 德国 V2CROSS.COM 2
-      - 🇨🇳 台湾省桃园市 中华电信
+      - 🇷🇺 俄罗斯 V2CROSS.COM 4
+      - 🇸🇬 立陶宛 NGS新闻
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇫🇷 法国 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇱🇹 立陶宛 V2CROSS.COM
       - 🇺🇸 美国 V2CROSS.COM 3
       - 🇪🇸 西班牙 V2CROSS.COM 2
-      - 🇪🇸 西班牙 V2CROSS.COM 3
+      - 🇷🇺 俄罗斯 V2CROSS.COM 5
       - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇸🇪 瑞典 V2CROSS.COM 2
-      - 🇱🇹 立陶宛 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇫🇷 法国 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM 4
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇧🇬 保加利亚 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 7
-      - 🇱🇺 卢森堡 root.lu数据中心 3
-      - 🇱🇹 立陶宛 V2CROSS.COM 2
-      - 🇸🇬 立陶宛 NGS新闻
-      - 🇯🇵 日本 东京Oracle云计算数据中心
-      - 🇬🇧 英国 V2CROSS.COM 3
       - 🇩🇪 德国 V2CROSS.COM 3
+      - 🇪🇸 西班牙 V2CROSS.COM 3
+      - 🇱🇺 卢森堡 root.lu数据中心
+      - 🇨🇳 广东省东莞市 电信IDC机房
+      - 🇨🇳 广东省东莞市 电信IDC机房 2
+      - 🇺🇸 美国 V2CROSS.COM 4
+      - 🇸🇪 瑞典 V2CROSS.COM 2
+      - 🇦🇹 奥地利 V2CROSS.COM
+      - 🇱🇹 立陶宛 V2CROSS.COM 2
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 欧盟 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇸🇦 沙特阿拉伯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇨🇳 江苏省 移动
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇺🇸 美国 惠普HP
       - 🇨🇳 江苏省 移动 2
       - 🇨🇳 江苏省 移动 3
-      - 🇰🇷 韩国 KT电信
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇱🇺 卢森堡 root.lu数据中心
-      - 🇦🇹 奥地利 V2CROSS.COM
-      - 🇱🇺 卢森堡 root.lu数据中心 2
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇳🇱 荷兰 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇨🇳 江苏省 移动 4
+      - 🇬🇧 英国 社会保险安全部
       - 🇷🇺 俄罗斯 V2CROSS.COM 3
+      - 🇳🇱 荷兰 V2CROSS.COM
       - 🇩🇪 德国 V2CROSS.COM 2
-      - 🇨🇳 台湾省桃园市 中华电信
+      - 🇷🇺 俄罗斯 V2CROSS.COM 4
+      - 🇸🇬 立陶宛 NGS新闻
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇫🇷 法国 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇱🇹 立陶宛 V2CROSS.COM
       - 🇺🇸 美国 V2CROSS.COM 3
       - 🇪🇸 西班牙 V2CROSS.COM 2
-      - 🇪🇸 西班牙 V2CROSS.COM 3
+      - 🇷🇺 俄罗斯 V2CROSS.COM 5
       - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇸🇪 瑞典 V2CROSS.COM 2
-      - 🇱🇹 立陶宛 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇫🇷 法国 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM 4
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇧🇬 保加利亚 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 7
-      - 🇱🇺 卢森堡 root.lu数据中心 3
-      - 🇱🇹 立陶宛 V2CROSS.COM 2
-      - 🇸🇬 立陶宛 NGS新闻
-      - 🇯🇵 日本 东京Oracle云计算数据中心
-      - 🇬🇧 英国 V2CROSS.COM 3
       - 🇩🇪 德国 V2CROSS.COM 3
+      - 🇪🇸 西班牙 V2CROSS.COM 3
+      - 🇱🇺 卢森堡 root.lu数据中心
+      - 🇨🇳 广东省东莞市 电信IDC机房
+      - 🇨🇳 广东省东莞市 电信IDC机房 2
+      - 🇺🇸 美国 V2CROSS.COM 4
+      - 🇸🇪 瑞典 V2CROSS.COM 2
+      - 🇦🇹 奥地利 V2CROSS.COM
+      - 🇱🇹 立陶宛 V2CROSS.COM 2
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -218,50 +194,44 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 欧盟 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇸🇦 沙特阿拉伯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇨🇳 江苏省 移动
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇺🇸 美国 惠普HP
       - 🇨🇳 江苏省 移动 2
       - 🇨🇳 江苏省 移动 3
-      - 🇰🇷 韩国 KT电信
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇱🇺 卢森堡 root.lu数据中心
-      - 🇦🇹 奥地利 V2CROSS.COM
-      - 🇱🇺 卢森堡 root.lu数据中心 2
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇳🇱 荷兰 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇨🇳 江苏省 移动 4
+      - 🇬🇧 英国 社会保险安全部
       - 🇷🇺 俄罗斯 V2CROSS.COM 3
+      - 🇳🇱 荷兰 V2CROSS.COM
       - 🇩🇪 德国 V2CROSS.COM 2
-      - 🇨🇳 台湾省桃园市 中华电信
+      - 🇷🇺 俄罗斯 V2CROSS.COM 4
+      - 🇸🇬 立陶宛 NGS新闻
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇫🇷 法国 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇱🇹 立陶宛 V2CROSS.COM
       - 🇺🇸 美国 V2CROSS.COM 3
       - 🇪🇸 西班牙 V2CROSS.COM 2
-      - 🇪🇸 西班牙 V2CROSS.COM 3
+      - 🇷🇺 俄罗斯 V2CROSS.COM 5
       - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇸🇪 瑞典 V2CROSS.COM 2
-      - 🇱🇹 立陶宛 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇫🇷 法国 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM 4
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇧🇬 保加利亚 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 7
-      - 🇱🇺 卢森堡 root.lu数据中心 3
-      - 🇱🇹 立陶宛 V2CROSS.COM 2
-      - 🇸🇬 立陶宛 NGS新闻
-      - 🇯🇵 日本 东京Oracle云计算数据中心
-      - 🇬🇧 英国 V2CROSS.COM 3
       - 🇩🇪 德国 V2CROSS.COM 3
+      - 🇪🇸 西班牙 V2CROSS.COM 3
+      - 🇱🇺 卢森堡 root.lu数据中心
+      - 🇨🇳 广东省东莞市 电信IDC机房
+      - 🇨🇳 广东省东莞市 电信IDC机房 2
+      - 🇺🇸 美国 V2CROSS.COM 4
+      - 🇸🇪 瑞典 V2CROSS.COM 2
+      - 🇦🇹 奥地利 V2CROSS.COM
+      - 🇱🇹 立陶宛 V2CROSS.COM 2
   - name: 📲 电报消息
     type: select
     proxies:
@@ -430,34 +400,33 @@ proxy-groups:
     proxies:
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本 东京Oracle云计算数据中心
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 美国 惠普HP
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国 V2CROSS.COM 3
       - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇺🇸 美国 V2CROSS.COM 7
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾省桃园市 中华电信
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -471,7 +440,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 韩国 KT电信
+      - DIRECT
   - name: 🎥 奈飞节点
     type: select
     proxies:
